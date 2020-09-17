@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/library?serverTimezone=UTC&useSSL=false&autoReconnect=true&tinyInt1isBit=false&useUnicode=true&characterEncoding=utf8
+    username: root
+    password: zhang12345
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    show-sql: true   #打印sql的
+    properties:
+      hibernate:
+        format_sql: true  #格式化sql,自动换行
+server:
+  port: 8181
